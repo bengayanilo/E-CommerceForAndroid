@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">E-Commerce</string>
+    <string name="link">Already have an account? Click <a href="">here</a> </string>
 </resources>

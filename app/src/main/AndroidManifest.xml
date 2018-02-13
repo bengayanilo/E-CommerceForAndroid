@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".register" />
-        <activity android:name=".Categories"></activity>
+        <activity android:name=".Categories" />
+        <activity android:name=".Accounts" />
     </application>
 
 </manifest>
