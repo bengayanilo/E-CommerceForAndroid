@@ -11,9 +11,4 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public int Enemy(){
-
-
-        return 0;
-    }
 }
