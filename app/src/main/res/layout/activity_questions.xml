@@ -38,7 +38,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="     WE ARE TEAM ADAPTDEV
+        android:text="WE ARE TEAM ADAPTDEV
 
         Established recently, on July 2015, with only one person, namely Sydel Palinlin as the Adaptdev Solutions Corporation's founder. He trained four persons as a start of developing a team, two persons assigned as designers, and two persons for software engineering aspect. They started working on small projects such as enrollment system structure as part of their training as a team. Now, they are already focusing on developing bigger to biggest projects with numerous acquired training skills."
         android:padding="20dp"
