@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Not a user yet? Click here"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp" />
 
     </LinearLayout>
 
