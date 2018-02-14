@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dictgayanilo.e_commerce.register">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Registration Page"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="371dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/regName"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="5dp"
+                android:text="Name"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/regName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="15"
+                android:hint="Please enter your name"
+                android:inputType="textPersonName"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignStart="@+id/regName"
+                android:layout_below="@+id/regName"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="5dp"
+                android:text="E-mail"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/regEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:ems="10"
+                android:hint="Please enter your e-mail"
+                android:inputType="textEmailAddress"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignStart="@+id/regEmail"
+                android:layout_below="@+id/regEmail"
+                android:layout_marginTop="16dp"
+                android:text="Password"
+                android:paddingLeft="5dp" 
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/regPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView4"
+                android:ems="10"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Please enter your password"
+                android:inputType="textPassword"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_alignStart="@+id/regPass"
+                android:layout_below="@+id/regPass"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="5dp"
+                android:textSize="15sp"
+                android:text="Confirm Password"/>
+
+            <EditText
+                android:id="@+id/regPassCon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView5"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Please confirm your password"
+                android:textSize="17sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/ckbTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:layout_gravity="center"
+                android:text="I accept the Terms and Conditions"
+                android:textSize="14sp"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:paddingStart="50dp"
+                android:paddingEnd="50dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/link"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+</LinearLayout>
