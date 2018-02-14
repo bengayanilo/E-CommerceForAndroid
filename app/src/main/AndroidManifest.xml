@@ -21,7 +21,8 @@
         <activity android:name=".Accounts" />
         <activity android:name=".Cart" />
         <activity android:name=".ProductDetails" />
-        <activity android:name=".Home"></activity>
+        <activity android:name=".Home" />
+        <activity android:name=".PCategories"></activity>
     </application>
 
 </manifest>
