@@ -19,7 +19,8 @@
         <activity android:name=".register" />
         <activity android:name=".Categories" />
         <activity android:name=".Accounts" />
-        <activity android:name=".Cart"></activity>
+        <activity android:name=".Cart" />
+        <activity android:name=".ProductDetails"></activity>
     </application>
 
 </manifest>
