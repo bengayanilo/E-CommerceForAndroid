@@ -3,4 +3,5 @@
     <string name="link">Already have an account? Click <a href="">here</a> </string>
     <string name="myaccount">My Account</string>
     <string name="title_activity_wishlist">Wishlist</string>
+    <string name="backbutton">Back</string>
 </resources>
