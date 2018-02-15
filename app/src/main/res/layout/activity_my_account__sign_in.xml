@@ -17,7 +17,7 @@
             android:id="@+id/navbutton"
             android:layout_width="65dp"
             android:layout_height="wrap_content"
-            android:text="<"
+            android:text="<-"
             android:gravity="center"/>
 
         <TextView
