@@ -22,7 +22,8 @@
         <activity android:name=".Cart" />
         <activity android:name=".ProductDetails" />
         <activity android:name=".Home" />
-        <activity android:name=".Wishlist"></activity>
+        <activity android:name=".Wishlist" />
+        <activity android:name=".MyAccount_SignIn"></activity>
     </application>
 
 </manifest>
