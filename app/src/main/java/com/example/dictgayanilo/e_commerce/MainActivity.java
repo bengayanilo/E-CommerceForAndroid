@@ -10,32 +10,11 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //button = (Button) findViewById(R.id.button2);
-        button.setOnClickListener(new View.OnClickListener(){
 
-            @Override
-            public void onClick(View view){
-
-                PopupMenu popupMenu = new PopupMenu(MainActivity.this,button);
-                popupMenu.getMenuInflater().inflate(R.menu.popupmenu, popupMenu.getMenu());
-
-                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener(){
-                    @Override
-                    public boolean onMenuItemClick(MenuItem item){
-                        Toast.makeText(MainActivity.this, ""+ item.getTitle(),Toast.LENGTH_SHORT).show();
-                        return true;
-                    }
-
-                });
-                popupMenu.show();
-            }
-        });
     }
 }
