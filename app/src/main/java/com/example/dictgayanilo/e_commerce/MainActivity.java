@@ -1,41 +1,44 @@
 package com.example.dictgayanilo.e_commerce;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.PopupMenu;
-import android.widget.Toast;
+import android.widget.EditText;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button button;
+    EditText Email, Pass;
+    Button Login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //button = (Button) findViewById(R.id.button2);
-        button.setOnClickListener(new View.OnClickListener(){
+        Email = findViewById(R.id.txtEmail);
+        Pass = findViewById(R.id.txtPass);
+        Login = findViewById(R.id.btnLogin);
 
-            @Override
-            public void onClick(View view){
+        Login.setOnClickListener(this);
+    }
 
-                PopupMenu popupMenu = new PopupMenu(MainActivity.this,button);
-                popupMenu.getMenuInflater().inflate(R.menu.popupmenu, popupMenu.getMenu());
+    @Override
+    public void onClick(View view) {
 
-                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener(){
-                    @Override
-                    public boolean onMenuItemClick(MenuItem item){
-                        Toast.makeText(MainActivity.this, ""+ item.getTitle(),Toast.LENGTH_SHORT).show();
-                        return true;
-                    }
+        String getEmail, getPass;
 
-                });
-                popupMenu.show();
-            }
-        });
+        getEmail = Email.getText().toString();
+        getPass = Pass.getText().toString();
+
+        Intent toHome = new Intent(this, Home.class);
+
+        Bundle loginInfo = new Bundle();
+
+        loginInfo.putString("Email", getEmail);
+        loginInfo.putString("Password", getPass);
+        toHome.putExtras(loginInfo);
+        startActivity(toHome);
     }
 }

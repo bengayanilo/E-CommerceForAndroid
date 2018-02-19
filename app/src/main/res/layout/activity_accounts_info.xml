@@ -72,7 +72,9 @@
        <EditText
            android:layout_width="match_parent"
            android:layout_height="wrap_content" />
+
         </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
@@ -99,7 +101,9 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
         </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
@@ -126,7 +130,9 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
         </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
@@ -189,7 +195,9 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:paddingRight="40dp"/>
+
         </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>
