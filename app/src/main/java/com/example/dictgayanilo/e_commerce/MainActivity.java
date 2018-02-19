@@ -23,10 +23,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Login.setOnClickListener(this);
     }
-
     @Override
     public void onClick(View view) {
-
         String getEmail, getPass;
 
         getEmail = Email.getText().toString();
@@ -40,5 +38,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         loginInfo.putString("Password", getPass);
         toHome.putExtras(loginInfo);
         startActivity(toHome);
-    }
 }

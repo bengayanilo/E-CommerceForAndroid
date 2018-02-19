@@ -3,14 +3,22 @@
 
 
 
+
     <item
-        android:id="@+id/one"
-        android:title="One"/>
+        android:id="@+id/H"
+        android:title="Home"/>
+
     <item
-        android:id="@+id/two"
-        android:title="Two"/>
+        android:id="@+id/C"
+        android:title="Categories"/>
     <item
-        android:id="@+id/three"
-        android:title="Three"/>
+        android:id="@+id/MC"
+        android:title="My Cart"/>
+    <item
+        android:id="@+id/MA"
+        android:title="My Account"/>
+    <item
+        android:id="@+id/NH"
+        android:title="Need Help?"/>
 
 </menu>
